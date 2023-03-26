@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b5aac2-cccb-48d1-aea7-14a4a11e4d0e" name="Changes" comment="Server done">
-      <change afterPath="$PROJECT_DIR$/src/Ex1/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex2/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex1.Client">
+  <component name="RunManager" selected="Application.Ex2.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inClass.Client" />
       <module name="VS_AB2" />
@@ -65,6 +64,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex2.Client" />
+      <module name="VS_AB2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex2.Server" />
+      <module name="VS_AB2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,6 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex2.Client" />
+        <item itemvalue="Application.Ex2.Server" />
         <item itemvalue="Application.Ex1.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
@@ -125,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679821988327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Server done">
+      <created>1679833437760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679833437760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
