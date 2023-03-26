@@ -62,7 +62,11 @@ class ServerThread extends Thread
             while ((input = in.readLine()) != null)
             {
                 if (input.startsWith("exit"))
+                {
+                    System.out.println("Client disconnected");
+                    socket.close();
                     break;
+                }
                 out.println(parseInput(input));
             }
         }
@@ -83,7 +87,8 @@ class ServerThread extends Thread
         return switch (tokens[0].toLowerCase())
                 {
                     case "list" -> files.toString();
-                    case "get" -> files.contains(tokens[1]) ? Arrays.toString(Files.readAllBytes(Paths.get(dir + "\\" + tokens[1]))) : "File does not exist";
+                    case "get" ->
+                            files.contains(tokens[1]) ? Arrays.toString(Files.readAllBytes(Paths.get(dir + "\\" + tokens[1]))) : null;
                     default -> "Unknown command";
                 };
     }

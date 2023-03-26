@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b5aac2-cccb-48d1-aea7-14a4a11e4d0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/inClass/Client.java" afterDir="false" />
+    <list default="true" id="56b5aac2-cccb-48d1-aea7-14a4a11e4d0e" name="Changes" comment="Server done">
+      <change afterPath="$PROJECT_DIR$/src/Ex1/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inClass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Semester7/VS/TestDir&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -43,13 +45,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Ex1.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inClass.Client" />
       <module name="VS_AB2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="inClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex1.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex1.Client" />
+      <module name="VS_AB2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,8 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex1.Server" />
+      <module name="VS_AB2" />
+      <option name="PROGRAM_PARAMETERS" value="D:\Semester7\VS\TestDir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex1.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
       </list>
@@ -88,9 +118,31 @@
       <workItem from="1679306503633" duration="412000" />
       <workItem from="1679306933372" duration="1422000" />
     </task>
+    <task id="LOCAL-00001" summary="Server done">
+      <created>1679821988327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679821988327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Server done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
